@@ -14,6 +14,14 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Label1"}
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "8f99e4fd670de4c848533b886398d419"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
 - Name: TextBox1
   Type: ObjectLibraryItem
   Children:
@@ -25,12 +33,19 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "f350071abcb103baad74ed1a8c5bbfaf"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
 - Name: TextBox11
   Type: ObjectLibraryItem
   Children:
@@ -42,9 +57,168 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "b1eab77c2a692d47277de62aa769dd42"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+- Name: 飞机1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "4f3c3bb888d690894b5006159b6b3e0e"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: 飞机1
+    Id: g=b9fd8ac1679d8fb3c2cbdcca8fc60fcd
+    Supertype: ScaleLayout
+    ReferenceType: HasComponent
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#0fafff"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 180.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 120.0
+    - Name: Icon_border
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=4;%PROJECTDIR%/res/AirplaneIcon_Icon_border.svg"
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#d1d3d4"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 18.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 18.0
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 240.0
+- Name: 活动报警_已确认_已证实1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "cd9085259db75ff1b11c3f994c2dfdab"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: 活动报警_已确认_已证实1
+    Id: g=8a85cbcc80a088793de94e15fd5e30a4
+    Supertype: ScaleLayout
+    ReferenceType: HasComponent
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#000000"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 73.0
+    - Name: Icon_border
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=4;%PROJECTDIR%/res/Alarms_Icons_InAlarm_Acked_Confirmed.svg"
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 24.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 24.0
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 557.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 270.0
