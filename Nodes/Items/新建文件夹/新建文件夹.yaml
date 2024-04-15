@@ -1,0 +1,24 @@
+Name: 新建文件夹
+Type: FolderType
+Children:
+- Name: 标签1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: LibraryItemGuid
+    Type: BaseDataVariableType
+    DataType: Guid
+    Value: "5ac9cb871394eab1fdc321b6811f24e8"
+  - Name: LibraryItemVersion
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: 标签1
+    Id: g=90226b2c2322782fc33ab6e515d472b9
+    Supertype: Label
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"zh-CN","Text":"标签1"}
