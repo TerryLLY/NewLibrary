@@ -22,30 +22,6 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 1
-- Name: TextBox1
-  Type: ObjectLibraryItem
-  Children:
-  - Name: TextBox1
-    Id: g=00599baa85a721eba9b39967d3070ce5
-    Supertype: TextBox
-    ReferenceType: HasComponent
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 110.0
-  - Name: LibraryItemGuid
-    Type: BaseDataVariableType
-    DataType: Guid
-    Value: "f350071abcb103baad74ed1a8c5bbfaf"
-  - Name: LibraryItemVersion
-    Type: BaseDataVariableType
-    DataType: UInt32
-    Value: 1
 - Name: TextBox11
   Type: ObjectLibraryItem
   Children:
