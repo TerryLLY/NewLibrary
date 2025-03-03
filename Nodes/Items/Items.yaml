@@ -1,7 +1,6 @@
 Name: Items
 Type: FolderType
 Children:
-- File: NewFolder/NewFolder.yaml
 - File: 新建文件夹/新建文件夹.yaml
 - Name: BoîteDeSpin1
   Type: ObjectLibraryItem
@@ -37,3 +36,4 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 150.0
+- File: NuovaCartella/NuovaCartella.yaml
